@@ -59,3 +59,21 @@ form input.equal
 form input.operator{
 color: aqua;
 }
+@media screen and (max-width: 600px) {
+    .calculator form {
+        align-items: center;
+    }
+
+    .calculator form > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calculator form input {
+        margin: 5px;
+    }
+
+    .calculator form .display input {
+        font-size: 20px;
+    }
+}
